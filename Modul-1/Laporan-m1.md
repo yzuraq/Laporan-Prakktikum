@@ -18,7 +18,7 @@
     ![gambar3](../gambar/Screenshot%202026-03-09%20123047.png)
 9. Selanjutnya kalian bisa baca License Agreementnya, jika sudah klik noted.
     ![gambar4](../gambar/Screenshot%202026-03-09%20123243.png)
-10. lanjut klik next lagi.
+10. lanjut klik next lagi.                                                                         
     ![gambar5](../gambar/Screenshot%202026-03-09%20123509.png)
 11. Selanjutnya pilih komponen yang mau diinstall, sesuaikan saja dengan kebutuhan. jika sudah klik next
     ![gambar6](../gambar/Screenshot%202026-03-09%20123629.png)
