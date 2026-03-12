@@ -1,0 +1,4 @@
+## Pengenalan Tools
+# 1. Wireshark 
+![wirechark dashboard](image.png)
+Wireshark merupakan aplikasi untuk mengamati pesan yang bertukar antara entitas protokol yang disebut dengan Packet Sniffer. Packet Sniffer menangkap (“Sniffs”) pesan yang dikirim/diterima dari/oleh komputer anda; biasanya juga akan menyimpan dan/atau menampilkan isi berbagai bidang protokol dalam pesan yang ditangkap. Sebuah Packet Sniffer itu sendiri bersifat pasif. Ia hanya dapat mengamati pesan yang dikirim dan diterima oleh sebuah aplikasi dan protokol yang berjalan di komputer anda, akan tetapi tidak pernah mengirim ataupun menerima paket itu sendiri. Selain itu, paket yang terima tidak pernah ditunjukan secara eksplisit ke Packet Sniffer. Sebagai gantinya, sebuah Packet Sniffer akan menerima salinan paket yang dikirim/diterima dari/oleh aplikasi yang dijalankan di komputer anda
