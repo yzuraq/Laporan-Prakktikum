@@ -31,6 +31,11 @@ gambar di samping digunakan untuk filter tampilan.
 ![capturing](image-5.png)
 Gambar di atas merupakan tampilan dari  lalu lintas jaringan dari interface Wi-Fi 2, di mana terdapat nomor paket, waktu paket diterima, alamat pengirim paket, alamat tujuan, jenis protocol, ukuran paket, dan info dari paket tersebut.
 
+![detail_paket](image-6.png)
+Gambar di atas merupakan detai dari sebuah paket yang dipilih
+
+![isi paket](image-7.png)
+gambar di atas merupakan isi dari paket yang dipilih dengan format offset, hexadecimal, dan ASCII
 
 # Pustaka
  (sumber : https://www.techtarget.com/whatis/definition/Wireshark)
