@@ -16,7 +16,9 @@ Gambar di atas menunjukan beberapa beberapa interface, yakni
 ![capturing-wifi2](image-2.png)
 
 3. Bagian Dari Gambar
+
 ![opsi](image-3.png)
+
 pada gambar gambar di atas, terdapat beberapa button, yakni :
 - gambar sirip hiu, digunakan untuk memulai capturing lalu lintas jaringan pada Wi-Fi 2
 - gambar persegi 4, digunakan untuk memberhentikan capturing
@@ -24,7 +26,7 @@ pada gambar gambar di atas, terdapat beberapa button, yakni :
 - gambar bulat ada gear di dalamnya, ini digunakan untuk opsi memilih interface yang ingin dicapturing
 
 ![serch](image-4.png)
-gambar di atas digunakan untuk filter tampilan.
+gambar di samping digunakan untuk filter tampilan.
 
 ![capturing](image-5.png)
 Gambar di atas merupakan tampilan dari  lalu lintas jaringan dari interface Wi-Fi 2, di mana terdapat nomor paket, waktu paket diterima, alamat pengirim paket, alamat tujuan, jenis protocol, ukuran paket, dan info dari paket tersebut.
