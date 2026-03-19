@@ -1,14 +1,14 @@
-##Laporan Prakktikum Jaringan Komputer Modul 3 Terkait HTTP
+## Laporan Prakktikum Jaringan Komputer Modul 3 Terkait HTTP
 - Nama          : I Made Sudiarte
 - NIM           : 103072400044
 - Kelas         : IF-04-05
 
-#Tujuan Praktikum
+# Tujuan Praktikum
 - Mahasiswa dapat menginvestigasi cara kerja protokol HTTP menggunakan Wireshark.
 
-#Percobaan
+# Percobaan
 
-#Melakukan Capturing Wifi 2 Pada Wireshark
+# Melakukan Capturing Wifi 2 Pada Wireshark
 
 Tampilan Awal
 
