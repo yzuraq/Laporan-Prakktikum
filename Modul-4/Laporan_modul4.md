@@ -32,7 +32,6 @@ sama, dan menampilkan hasilnya.
     ![nslookup soal3](image-3.png)
 
 Mail melalui salah satu server yang didapatkan di pertanyaan nomor 2. Apa alamat IP-nya?
-
     ![3](image-4.png)
 * dari hasil di atas kita mendapatkan beberapa ip, yakni : ![ip](image-5.png)
 
