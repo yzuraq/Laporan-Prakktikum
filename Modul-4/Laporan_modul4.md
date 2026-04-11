@@ -105,7 +105,28 @@ nslookup –type=NS mit.edu
 
 ## Soal 
 1. Ke alamat IP manakah pesan permintaan DNS dikirimkan? Apakah alamat IP tersebut merupakan default alamat IP server DNS lokal Anda?
-2. Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan
-tersebut mengandung ”jawaban” atau ”answers”?
-3. Periksa pesan balasan DNS. Apa nama server MIT yang diberikan oleh pesan balasan?
-Apakah pesan balasan ini juga memberikan alamat IP untuk server MIT tersebut?
+    ![alt text](image-29.png) dari gambar di samping  terlihat pesan permintaan DNS dikirim ke alamat ip 128.238.29.22 dengan port 53, dan ini bukan merupakan alamat ip dafault server dns lokal saya (saya pake file capturing bernama dns-ethernet-trace-2)
+
+2. Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan tersebut mengandung ”jawaban” atau ”answers”?
+    jawab : sama seperti sebelumnya ![aada](image-26.png) dari gambar di samping terlihat type dari pesan tersebut adalah queries, dengan tidak ada jawaban / jawaban langsung query
+
+3. Periksa pesan balasan DNS. Apa nama server MIT yang diberikan oleh pesan balasan? Apakah pesan balasan ini juga memberikan alamat IP untuk server MIT tersebut?
+    ![alt text](image-30.png)
+    jawab : nama server MIT yang diberikan adalah www.mit.edu, dengan ip 18.7.22.83
+
+## Sekarang, ulangi percobaan sebelumnya, namun gunakan perintah:
+nslookup www.aiit.or.kr bitsy.mit.edu
+   ![alt text](image-31.png) 
+
+## Soal
+1. Ke alamat IP manakah pesan permintaan DNS dikirimkan? Apakah alamat IP tersebut merupakan default alamat IP server DNS lokal Anda?
+    ![alt text](image-32.png) dari gambar di samping terlihat pesan permintaan dikirim ke ip 192.168.18.1 dan itu merupakan default alamat ip server dns lokal saya
+
+2. Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan tersebut mengandung ”jawaban” atau ”answers”?
+    ![alt text](image-33.png) pesan dns tersebut bertype queries dengan tidak ada jawaban
+
+3. Periksa pesan balasan DNS. Berapa banyak ”jawaban” atau “answers” yang terdapat di dalamnya. Apa saja isi yang terkandung dalam setiap jawaban tersebut?
+    ![alt text](image-34.png) dari gambar di samping terlihat hanya ada satu jawaban yang dimana jawabannya berisi record dari bitsy.mit.edu
+
+# Lampiran
+![alt text](image-35.png)
