@@ -12,11 +12,11 @@ Berikut Codenya :
 from socket import *
 import sys
 
-    # Konfigurasi alamat dan port server
+#Konfigurasi alamat dan port server
 serverName = 'localhost'
 serverPort = 12000
 
-    # Inisialisasi socket UDP di luar loop agar tidak dibuat berulang-ulang
+#Inisialisasi socket UDP di luar loop agar tidak dibuat berulang-ulang
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 clientSocket.settimeout(5)  # Batas waktu tunggu 5 detik
 
@@ -64,7 +64,7 @@ Berikut codenya :
 from socket import *
 import sys
 
-    # Konfigurasi server
+#Konfigurasi server
 
 serverName = 'localhost'
 serverPort = 12000
@@ -107,13 +107,13 @@ finally:
 ### kode di atas digunakan untuk menerima pesan dari client → mengubah jadi huruf besar → kirim balik
 
 ## TCPClient.py
-    # Socket = penjumlahan, pembagian, pengurangan, perkalian
+#Socket = penjumlahan, pembagian, pengurangan, perkalian
 from socket import * 
 
 serverName = "localhost"
 serverPort = 12000
 
-    # AF_INET = ipv4 | Sock_stream = tcp
+#AF_INET = ipv4 | Sock_stream = tcp
 clientSocket = socket(AF_INET, SOCK_STREAM)
 
 #hubungan
