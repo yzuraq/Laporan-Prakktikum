@@ -1,3 +1,10 @@
+## Laporan Praktikum Jaringan Komputer Modul 9 - Web Server
+
+# mempelajari dasar-dasar pemrograman soket untuk koneksi TCP
+Python: cara membuat soket, mengikatnya ke alamat dan port tertentu, serta mengirim dan
+menerima paket HTTP. 
+
+1. Buat file bernama server.py, dengan code sebagai berikut :
 from socket import *
 import threading
 
@@ -53,3 +60,20 @@ while True:
         args=(connectionSocket,)
     )
     thread.start()
+
+2. Buat file index.htmlnya (bebas sih namanya, yang penting html), untuk isinya bebas, contoh : <h1>Whoashhhhh...</h1>
+3. Run file server.html
+4. Pada halaman browser, serch localhost:'port yang dipake'/'nama file htmlnya', contoh ![alt text](image.png)
+    Hasil : ![alt text](image-1.png)
+5. Jika ingin pesan yang ditampilkan 404 Page Not Found, pada halaman browser serch localhost:'port yang dipake' atau localhost:'port yang dipake'/'nama file html yang belum dibuat', contoh : ![alt text](image-2.png)
+
+# Praktikum Pun Selesai, Pada praktikum ini kita diajari mengenai cara membuat server web sederhana
+
+## Latihan 
+1. Buat file server.py (codenya ada di atas)
+    Jawab : [ini](<../Code PY/Modul9/server.py>)
+2. Buat file index.html
+    jawab : [ini](<../Code PY/Modul9/index.html>)
+3. Run filenya
+    Ini hasilnya : ![alt text](image-3.png)
+
