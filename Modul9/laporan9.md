@@ -65,7 +65,11 @@ while True:
     thread.start()
 ```
 
-2. Buat file index.htmlnya (bebas sih namanya, yang penting html), untuk isinya bebas, contoh : <h1>Whoashhhhh...</h1>
+2. Buat file index.htmlnya (bebas sih namanya, yang penting html), untuk isinya bebas, contoh : 
+``` html
+<h1>Whoashhhhh...</h1>
+```
+
 3. Run file server.html
 4. Pada halaman browser, serch localhost:'port yang dipake'/'nama file htmlnya', contoh ![alt text](image.png)
     Hasil : ![alt text](image-1.png)
