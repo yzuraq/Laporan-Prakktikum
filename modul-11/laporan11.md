@@ -6,7 +6,7 @@ Kelas   : IF-04-05
 # Laporan Praktikum Jaringan Modul 11 - DHCP
 
 ## A. Pengenalan
-DHCP adalah singkatan dari Dynamic Host Configuration Protocol. DHCP adalah protokol yang digunakan untuk distribusi IP Address pada jaringan komputer secara dinamis. Dengan menggunakan DHCP Anda dapat melakukan konfigurasi IP address pada setiap perangkat di jaringan komputer secara otomatis. (source : https://www.rumahweb.com/journal/dhcp-adalah/)
+DHCP adalah singkatan dari Dynamic Host Configuration Protocol. DHCP adalah protokol yang digunakan untuk distribusi IP Address pada jaringan komputer secara dinamis. Dengan menggunakan DHCP Anda dapat melakukan konfigurasi IP address pada setiap perangkat di jaringan komputer secara otomatis.
 
  <br>Fungsi :
  ```
@@ -43,3 +43,8 @@ DHCP adalah singkatan dari Dynamic Host Configuration Protocol. DHCP adalah prot
  4. lakukan filtering dengan kata dhcp, nanti akan ditampilkan proses dora tadi.
  hasil :
  ![alt text](image.png)
+
+ # Lampiran
+https://www.rumahweb.com/journal/dhcp-adalah/
+https://widyasecurity.com/2025/07/21/kelebihan-dan-kekurangan-dhcp-server-untuk-jaringan/
+https://www.ruangguru.com/blog/dhcp-server-client
